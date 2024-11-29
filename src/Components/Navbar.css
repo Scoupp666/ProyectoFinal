@@ -1,0 +1,87 @@
+.navbar {
+  width: 100%;
+  height: 75px;
+  background-image: linear-gradient(
+      to right, 
+      rgb(94, 255, 0),
+      rgb(0, 255, 242),
+      rgb(0, 17, 255)   
+  );
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  gap: 100px;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: solid grey;
+}
+
+.Lcontainer{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(53, 53, 53);
+  height: 80%;
+}
+
+a
+{
+  text-decoration: none;
+  height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    transition-property: background-color;
+    transition-duration: 350ms;
+}
+
+.navbar a
+{
+    margin: 0;
+    font-size: 1rem; /* Ajusta este valor según tus necesidades */
+    font-weight: bold;
+    color: black;
+    transition: transform 200ms, background-color 200ms;
+}
+
+.navbar:hover a
+{
+    scale: 1;
+}
+
+a:hover
+{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    transform: scale(1); /* Ajusta este valor para un efecto más sutil */
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+      height: 50px;
+      gap: 50px;
+    }
+    a {
+      width: 60px;
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* For screens smaller than 480px (small mobiles) */
+  @media only screen and (max-width: 480px) {
+    .navbar {
+      height: 40px;
+      gap: 30px;
+    }
+    a {
+      width: 40px;
+      font-size: 0.6rem;
+    }
+  }

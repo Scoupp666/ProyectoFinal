@@ -1,0 +1,128 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.Inicio{
+  background-color: aliceblue;
+  border-radius: 40px;
+}
+
+h1, h4 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: justify;
+  margin: 10px 20px;
+}
+
+/* Main container */
+.Inicio {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Section styles */
+.P1, .P2, .P3, .P4, .P5, .P6, .P7, .P8, .P9, .P10 {
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.P1{
+  background-color: white;
+}
+
+.P2{
+  background-image: linear-gradient(to right,purple, red, yellow);
+}
+
+.P3{
+  background-color: bisque;
+}
+
+.P4{
+  background-image: linear-gradient(to right, skyblue, grey, orange);
+}
+
+.P5{
+  background-color: antiquewhite;
+}
+
+.P6{
+  background-image: linear-gradient(to right, grey, red, blue, grey);
+}
+
+.P7{
+  background-color: azure;
+}
+
+.P8{
+  background-color: rgb(61, 70, 12);
+}
+
+.P9{
+  background-image: linear-gradient(to right, purple, black, yellow);
+}
+
+.P10{
+  background-color: rgb(10, 28, 49);
+}
+
+/* Images container */
+.images1, .images2, .images3, .images4, .images5, .images6, .images7, .images8, .images9, .images10 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.images1 img, .images2 img, .images3 img, .images4 img, .images5 img, 
+.images6 img, .images7 img, .images8 img, .images9 img, .images10 img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.images1 img:hover, .images2 img:hover, .images3 img:hover, 
+.images4 img:hover, .images5 img:hover, .images6 img:hover, 
+.images7 img:hover, .images8 img:hover, .images9 img:hover, 
+.images10 img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+  .Inicio {
+    padding: 10px;
+  }
+
+  p {
+    margin: 10px;
+  }
+
+  .images1 img, .images2 img, .images3 img, .images4 img, .images5 img,
+  .images6 img, .images7 img, .images8 img, .images9 img, .images10 img {
+    max-width: 100%;
+  }
+}

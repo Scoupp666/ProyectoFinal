@@ -1,0 +1,161 @@
+/* Portafolio.css */
+
+.Portafolio{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.Portafolio {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #0056b3;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #0056b3;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #003d80;
+}
+
+.icon {
+  width: 60px;
+  height: auto;
+  margin: 0.5rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Aicon{
+  width: 120px;
+  height: auto;
+  margin-left: 0.5rem;
+  transition: transform 0.3s;
+}
+
+.Uicon{
+  width: 120px;
+  height: auto;
+  margin-left: 0.5rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Uicon:hover, .Aicon:hover {
+  transform: scale(1.1);
+  box-shadow: none; /* Sin sombra */
+}
+
+
+.icon:hover {
+  transform: scale(1.1);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.listas ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+}
+
+.listas ul li {
+  background: #f1f1f1;
+  margin: 0.5rem 0;
+  padding: 0.8rem 1rem;
+  border-left: 5px solid #b30000;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.listas ul li:hover {
+  background: #e6f0ff;
+}
+
+.iconos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.GProyectos {
+  margin-top: 2rem;
+}
+
+.GProyectos p {
+  margin-top: 1rem;
+}
+
+.GProyectos img {
+  width: 100px;
+  height: auto;
+  margin: 1rem auto;
+  display: block;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.GProyectos img:hover {
+  transform: scale(1.05);
+}
+
+h4 {
+  margin-top: 2rem;
+  color: #444;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .iconos,
+  .listas ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon {
+    margin: 0.5rem 0;
+  }
+
+  .Aicon{
+    margin: 0.5rem 0;
+  }
+
+  .Uicon{
+    margin: 0.5rem 0;
+  }
+}
+
+
+.iconos{
+    display: flex;
+    justify-content: center; /* Centra los íconos horizontalmente */
+    align-items: center; /* Centra los íconos verticalmente */
+    flex-wrap: wrap; /* Permite que los íconos bajen de línea si no caben */
+    gap: 150px; /* Espaciado entre íconos */
+    padding: 20px;
+}
+  
+.icon-link{
+  text-decoration: none;
+}
