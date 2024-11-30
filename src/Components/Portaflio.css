@@ -2,23 +2,22 @@
 
 .Portafolio{
   font-family: 'Roboto', sans-serif;
-  margin: 0;
   padding: 0;
-  background: #f9f9f9;
-  color: #333;
+  background: #000000;
+  color: #ffffff;
 }
 
 .Portafolio {
   padding: 2rem;
   max-width: 1200px;
-  margin: 0 auto;
-  background: #ffffff;
+  margin: 20px auto;
+  background: #5b5b5b;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  color: #0056b3;
+  color: #ffffff;
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 1rem;
@@ -32,12 +31,17 @@ p {
 
 a {
   text-decoration: none;
-  color: #0056b3;
-  transition: color 0.3s;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  transition-property: background-color;
+  transition-duration: 350ms;
 }
 
 a:hover {
-  color: #003d80;
+  color: #ffffff;
 }
 
 .icon {
@@ -79,7 +83,7 @@ a:hover {
 }
 
 .listas ul li {
-  background: #f1f1f1;
+  background: #000000;
   margin: 0.5rem 0;
   padding: 0.8rem 1rem;
   border-left: 5px solid #b30000;
@@ -88,7 +92,7 @@ a:hover {
 }
 
 .listas ul li:hover {
-  background: #e6f0ff;
+  background: #e6f0ff6c;
 }
 
 .iconos {
@@ -120,7 +124,7 @@ a:hover {
 
 h4 {
   margin-top: 2rem;
-  color: #444;
+  color: #ffffff;
   font-size: 1.5rem;
   border-bottom: 2px solid #e0e0e0;
   padding-bottom: 0.5rem;
@@ -145,7 +149,6 @@ h4 {
     margin: 0.5rem 0;
   }
 }
-
 
 .iconos{
     display: flex;
