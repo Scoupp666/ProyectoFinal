@@ -29,7 +29,7 @@ h4 {
 .P {
   text-align: justify;
   margin: 10px 20px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 /* Main container */
@@ -42,49 +42,50 @@ h4 {
 /* Section styles */
 .P1, .P2, .P3, .P4, .P5, .P6, .P7, .P8, .P9, .P10 {
   border-radius: 8px;
+  border: solid aliceblue;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   padding: 15px;
 }
 
 .P1{
-  background-image: linear-gradient(to right, rgb(98, 118, 98), rgb(191, 73, 73), rgb(230, 207, 30));
+  background-color: black;
 }
 
 .P2{
-  background-image: linear-gradient(to right,purple, red, yellow);
+  background-color: black;
 }
 
 .P3{
-  background-color: bisque;
+  background-color: black;
 }
 
 .P4{
-  background-image: linear-gradient(to right, skyblue, grey, orange);
+  background-color: black;
 }
 
 .P5{
-  background-image: linear-gradient(to right, rgb(76, 76, 76), rgb(255, 216, 165), rgb(32, 32, 161));
+  background-color: black;
 }
 
 .P6{
-  background-image: linear-gradient(to right, grey, red, blue, grey);
+  background-color: black;
 }
 
 .P7{
-  background-image: linear-gradient(to right, skyblue, rgb(254, 197, 126), grey);
+  background-color: black;
 }
 
 .P8{
-  background-color: rgb(61, 70, 12);
+  background-color: black;
 }
 
 .P9{
-  background-image: linear-gradient(to right, purple, rgb(255, 255, 255), yellow);
+  background-color: black;
 }
 
 .P10{
-  background-color: rgb(3, 67, 140);
+  background-color: black;
 }
 
 /* Images container */

@@ -1,5 +1,3 @@
-/* Portafolio.css */
-
 .Portafolio{
   font-family: 'Roboto', sans-serif;
   padding: 0;
@@ -44,10 +42,19 @@ a:hover {
   color: #ffffff;
 }
 
+.Amerike a{
+  justify-content: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.Amerike a:hover{
+  background-color: #00000000;
+}
+
 .icon {
-  width: 60px;
-  height: auto;
-  margin: 0.5rem;
+  width: 120px;
+  height: 120px;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -73,7 +80,6 @@ a:hover {
 
 .icon:hover {
   transform: scale(1.1);
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
 .listas ul {
@@ -91,15 +97,27 @@ a:hover {
   font-size: 1rem;
 }
 
-.listas ul li:hover {
-  background: #e6f0ff6c;
-}
-
 .iconos {
+  background-color: rgb(71, 63, 71);
+  border-radius: 20px;
   display: flex;
   flex-wrap: wrap;
+  gap: 50px;
   justify-content: center;
-  margin: 2rem 0;
+}
+
+.iconos a:hover{
+  background-color: #00000000;
+}
+
+.Unity a{
+  justify-content: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.Unity a:hover{
+  background-color: #00000000;
 }
 
 .GProyectos {
@@ -111,11 +129,21 @@ a:hover {
 }
 
 .GProyectos img {
-  width: 100px;
+  width: 150px;
   height: auto;
   margin: 1rem auto;
   display: block;
   transition: transform 0.3s, opacity 0.3s;
+}
+
+.GProyectos a{
+  justify-content: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.GProyectos a:hover{
+  background-color: #00000000;
 }
 
 .GProyectos img:hover {
@@ -155,7 +183,7 @@ h4 {
     justify-content: center; /* Centra los íconos horizontalmente */
     align-items: center; /* Centra los íconos verticalmente */
     flex-wrap: wrap; /* Permite que los íconos bajen de línea si no caben */
-    gap: 150px; /* Espaciado entre íconos */
+    gap: 70px; /* Espaciado entre íconos */
     padding: 20px;
 }
   

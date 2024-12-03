@@ -6,7 +6,8 @@ const Portafolio = () => {
       <div className="Porta">
         <h1>Portafolio</h1>
         <p>Soy un programador y desarrollador de videojuegos en formación, estudio en el instituto de estudios universitarios Amerike la Ingeniería en Desarrollo de Software Interactivo y Videojuegos.</p>
-        <a 
+        <div className='Amerike'>
+          <a 
             href="https://amerike.edu.mx" 
             target="_blank" 
             rel="noopener noreferrer" 
@@ -14,6 +15,7 @@ const Portafolio = () => {
           >
             <img src= 'https://amerike.edu.mx/wp-content/uploads/2023/03/logo-amerike-blanco-1B.png' alt="Amerike" className="Aicon" />
           </a>
+        </div>
         <p>Llevo cursados 3 semestres en los cuales he llevado estas materias:</p>
         <div className='listas'>
           <ul className='L1'>
@@ -102,39 +104,41 @@ const Portafolio = () => {
             rel="noopener noreferrer" 
             className="icon-link"
           >
-            <img src= 'https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png' alt="React Icon" className="icon" />
+            <img src= 'https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175110.png?f=webp&w=256' alt="React Icon" className="icon" />
           </a>
         </div>
         <p>Tambien conocí y actualmente me encuentro en capacitación en el motor gráfico Unity</p>
-        <a 
-          href="https://assetstore.unity.com/" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="icon-link"
-        >
-          <img src= 'https://1000marcas.net/wp-content/uploads/2021/02/Unity-logo-500x281.png' alt="Unity Icon" className="Uicon" />
-        </a>
+        <div className='Unity'>
+          <a 
+            href="https://assetstore.unity.com/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="icon-link"
+          >
+            <img src= 'https://1000marcas.net/wp-content/uploads/2021/02/Unity-logo-500x281.png' alt="Unity Icon" className="Uicon" />
+          </a>
+        </div>
         <div className='GProyectos'>
           <h4>Algunos de mis mayores proyectos son estos:</h4>
           <p>Un juego de Slenderman, cuenta con 3 niveles y en ellos tienes que buscar y encontrar los 8 clasicos papeles y evitar la muerte por Slenderman</p>
           <a 
-          href="https://scoupp67.itch.io/slenderman" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="icon-link"
-        >
-          <img src= 'https://www.nicepng.com/png/full/46-464719_slender-man-steam-greenlight-calligraphy.png' alt="Unity Icon" className="Sicon" />
-        </a>
-        <br />
-        <p>Esta es una página web que te muestra todo un catálogo de APIS pertenecientes a AmiiboAPI, puedes ver todas una por una o buscar a algun Amiibo en específico</p>
-        <a 
-          href="https://examen-web-zap994.netlify.app" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="icon-link"
-        >
-          <img src= 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Netlify_logo_%282%29.svg/800px-Netlify_logo_%282%29.svg.png' alt="Unity Icon" className="Nicon" />
-        </a>
+            href="https://scoupp67.itch.io/slenderman" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="icon-link"
+          >
+            <img src= 'https://www.nicepng.com/png/full/46-464719_slender-man-steam-greenlight-calligraphy.png' alt="Unity Icon" className="Sicon" />
+          </a>
+          <br />
+          <p>Esta es una página web que te muestra todo un catálogo de APIS pertenecientes a AmiiboAPI, puedes ver todas una por una o buscar a algun Amiibo en específico</p>
+          <a 
+            href="https://examen-web-zap994.netlify.app" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="icon-link"
+          >
+            <img src= 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Netlify_logo_%282%29.svg/800px-Netlify_logo_%282%29.svg.png' alt="Unity Icon" className="Nicon" />
+          </a>
         </div>
       </div>
     </div>
